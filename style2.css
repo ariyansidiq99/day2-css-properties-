@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#exp1 {
+    width: 400px;
+    background: saddlebrown;
+    border: 1px solid black;
+}
+
+.box-a {
+    margin-bottom: 40px;
+}
+
+.box-b {
+    margin-top: 30px;
+}
+
+.parent{
+    width: 400px;
+    background: darkseagreen;
+     display: flex;
+    flex-direction: column;
+}
+
+.child {
+    margin-top: 50px;
+}
+
+.flex-parent {
+    background-color: cadetblue;
+    display: flex
+}
